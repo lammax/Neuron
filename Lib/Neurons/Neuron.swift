@@ -23,6 +23,10 @@ class Neuron {
         self.smoothing = smoothing
     }
     
+    func set(weight: Double) {
+        self.weight = weight
+    }
+    
     func process(input: Double) -> Double {
         input * weight
     }
@@ -31,12 +35,12 @@ class Neuron {
         output / weight
     }
     
-    func train(input: Double, expectedResult: Double) -> Double {
+    func train(input: Double, expectedResult: Double) -> (Double, Double) {
         let actualResult = input * weight
         lastError = expectedResult - actualResult
         let correction = (lastError / actualResult) * smoothing
         weight += correction
-        return lastError
+        return (lastError, weight)
     }
     
 }
