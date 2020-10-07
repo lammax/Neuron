@@ -8,11 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		04A38B0B252E1E350042FC64 /* NeuronApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B0A252E1E350042FC64 /* NeuronApp.swift */; };
-		04A38B0D252E1E350042FC64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B0C252E1E350042FC64 /* ContentView.swift */; };
 		04A38B0F252E1E380042FC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A38B0E252E1E380042FC64 /* Assets.xcassets */; };
 		04A38B12252E1E380042FC64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A38B11252E1E380042FC64 /* Preview Assets.xcassets */; };
 		04A38B1D252E1E380042FC64 /* NeuronTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B1C252E1E380042FC64 /* NeuronTests.swift */; };
 		04A38B28252E1E380042FC64 /* NeuronUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B27252E1E380042FC64 /* NeuronUITests.swift */; };
+		04A38B3B252E1E910042FC64 /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B3A252E1E910042FC64 /* Neuron.swift */; };
+		04A38B3C252E1E910042FC64 /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B3A252E1E910042FC64 /* Neuron.swift */; };
+		04A38B3D252E1E910042FC64 /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B3A252E1E910042FC64 /* Neuron.swift */; };
+		04A38B49252E20970042FC64 /* TrainSceneIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B46252E20970042FC64 /* TrainSceneIntent.swift */; };
+		04A38B4A252E20970042FC64 /* TrainSceneIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B46252E20970042FC64 /* TrainSceneIntent.swift */; };
+		04A38B4B252E20970042FC64 /* TrainSceneIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B46252E20970042FC64 /* TrainSceneIntent.swift */; };
+		04A38B4C252E20970042FC64 /* TrainSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B47252E20970042FC64 /* TrainSceneView.swift */; };
+		04A38B4D252E20970042FC64 /* TrainSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B47252E20970042FC64 /* TrainSceneView.swift */; };
+		04A38B4E252E20970042FC64 /* TrainSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B47252E20970042FC64 /* TrainSceneView.swift */; };
+		04A38B4F252E20970042FC64 /* TrainSceneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B48252E20970042FC64 /* TrainSceneModel.swift */; };
+		04A38B50252E20970042FC64 /* TrainSceneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B48252E20970042FC64 /* TrainSceneModel.swift */; };
+		04A38B51252E20970042FC64 /* TrainSceneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A38B48252E20970042FC64 /* TrainSceneModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +46,6 @@
 /* Begin PBXFileReference section */
 		04A38B07252E1E350042FC64 /* Neuron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neuron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A38B0A252E1E350042FC64 /* NeuronApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronApp.swift; sourceTree = "<group>"; };
-		04A38B0C252E1E350042FC64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04A38B0E252E1E380042FC64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A38B11252E1E380042FC64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04A38B13252E1E380042FC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +55,10 @@
 		04A38B23252E1E380042FC64 /* NeuronUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuronUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A38B27252E1E380042FC64 /* NeuronUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronUITests.swift; sourceTree = "<group>"; };
 		04A38B29252E1E380042FC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A38B3A252E1E910042FC64 /* Neuron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron.swift; sourceTree = "<group>"; };
+		04A38B46252E20970042FC64 /* TrainSceneIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainSceneIntent.swift; sourceTree = "<group>"; };
+		04A38B47252E20970042FC64 /* TrainSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainSceneView.swift; sourceTree = "<group>"; };
+		04A38B48252E20970042FC64 /* TrainSceneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainSceneModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,7 @@
 		04A38AFE252E1E350042FC64 = {
 			isa = PBXGroup;
 			children = (
+				04A38B38252E1E5C0042FC64 /* Lib */,
 				04A38B09252E1E350042FC64 /* Neuron */,
 				04A38B1B252E1E380042FC64 /* NeuronTests */,
 				04A38B26252E1E380042FC64 /* NeuronUITests */,
@@ -95,8 +110,8 @@
 		04A38B09252E1E350042FC64 /* Neuron */ = {
 			isa = PBXGroup;
 			children = (
+				04A38B44252E20810042FC64 /* Scenes */,
 				04A38B0A252E1E350042FC64 /* NeuronApp.swift */,
-				04A38B0C252E1E350042FC64 /* ContentView.swift */,
 				04A38B0E252E1E380042FC64 /* Assets.xcassets */,
 				04A38B13252E1E380042FC64 /* Info.plist */,
 				04A38B10252E1E380042FC64 /* Preview Content */,
@@ -128,6 +143,40 @@
 				04A38B29252E1E380042FC64 /* Info.plist */,
 			);
 			path = NeuronUITests;
+			sourceTree = "<group>";
+		};
+		04A38B38252E1E5C0042FC64 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				04A38B39252E1E6C0042FC64 /* Neurons */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		04A38B39252E1E6C0042FC64 /* Neurons */ = {
+			isa = PBXGroup;
+			children = (
+				04A38B3A252E1E910042FC64 /* Neuron.swift */,
+			);
+			path = Neurons;
+			sourceTree = "<group>";
+		};
+		04A38B44252E20810042FC64 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				04A38B45252E20860042FC64 /* TrainScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		04A38B45252E20860042FC64 /* TrainScene */ = {
+			isa = PBXGroup;
+			children = (
+				04A38B47252E20970042FC64 /* TrainSceneView.swift */,
+				04A38B46252E20970042FC64 /* TrainSceneIntent.swift */,
+				04A38B48252E20970042FC64 /* TrainSceneModel.swift */,
+			);
+			path = TrainScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A38B0D252E1E350042FC64 /* ContentView.swift in Sources */,
+				04A38B3B252E1E910042FC64 /* Neuron.swift in Sources */,
 				04A38B0B252E1E350042FC64 /* NeuronApp.swift in Sources */,
+				04A38B4F252E20970042FC64 /* TrainSceneModel.swift in Sources */,
+				04A38B49252E20970042FC64 /* TrainSceneIntent.swift in Sources */,
+				04A38B4C252E20970042FC64 /* TrainSceneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +320,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A38B4A252E20970042FC64 /* TrainSceneIntent.swift in Sources */,
+				04A38B3C252E1E910042FC64 /* Neuron.swift in Sources */,
+				04A38B4D252E20970042FC64 /* TrainSceneView.swift in Sources */,
+				04A38B50252E20970042FC64 /* TrainSceneModel.swift in Sources */,
 				04A38B1D252E1E380042FC64 /* NeuronTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A38B4B252E20970042FC64 /* TrainSceneIntent.swift in Sources */,
+				04A38B3D252E1E910042FC64 /* Neuron.swift in Sources */,
+				04A38B4E252E20970042FC64 /* TrainSceneView.swift in Sources */,
+				04A38B51252E20970042FC64 /* TrainSceneModel.swift in Sources */,
 				04A38B28252E1E380042FC64 /* NeuronUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
